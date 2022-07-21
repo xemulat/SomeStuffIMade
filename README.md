@@ -12,3 +12,4 @@ Info:
 | HonkInstall | Automatic Installer for GooseMod and OpenAsar |
 | PyInsider | Wrapper for Offline Insider Enroller with auto-updates and auto-unpacker |
 | whydiscord | Not working auto opener and closer of Discord for MAXIMUM APP TRAY! |
+| RAMDownloader | Fake / Joke RAM Downloader |
