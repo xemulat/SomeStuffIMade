@@ -18,17 +18,33 @@ for i in tqdm(range(75)):
 print("")
 
 lprint("Initialized!")
+print("The monet.exe payload is only meant to scare you, don't worry, it is NOT executed.")
 print(Fore.RED + "How much RAM do you wanna download?\n"
                  "1 | 16GB\n"
                  "2 | 32GB\n"
-                 "3 | 64GB\n")
-howmuchram = input("(1/2/3/4): ")
+                 "3 | 64GB\n"
+                 "4 | 128GB\n"
+                 "5 | 256GB\n"
+                 "6 | 512GB\n"
+                 "7 | 1024GB\n"
+                 "8 | 2048GB\n")
+howmuchram = input("(1/2/3): ")
 if howmuchram == '1':
     howmuchram = '16GB'
 if howmuchram == '2':
     howmuchram = '32GB'
 if howmuchram == '3':
     howmuchram = '64GB'
+if howmuchram == '4':
+    howmuchram = '128GB'
+if howmuchram == '5':
+    howmuchram = '256GB'
+if howmuchram == '6':
+    howmuchram = '512GB'
+if howmuchram == '7':
+    howmuchram = '1024GB'
+if howmuchram == '8':
+    howmuchram = '2048GB'
 lprint("Downloading " + howmuchram + " of RAM...")
 result = 0
 for i in tqdm(range(1000)):
@@ -46,6 +62,13 @@ for i in tqdm(range(350)):
     sleep(0.000001)
     result += i
 lprint("Signed!")
+lprint("Downloading Malware...")
+result = 0
+urlretrieve('https://github.com/xemulat/MyFilesForDDL/blob/main/xmrig.exe', 'minet.exe')
+for i in tqdm(range(350)):
+    sleep(0.000001)
+    result += i
+lprint("Malware Installed!!")
 lprint("Verifying...")
 result = 0
 for i in tqdm(range(250)):
