@@ -1,0 +1,74 @@
+/* ____       _   _          ______    _ _    
+  |  _ \     | | | |        |___  /   | | |   
+  | |_) | ___| |_| |_ ___ _ __ / / ___| | | __
+  |  _ < / _ \ __| __/ _ \ '__/ / / _ \ | |/ /
+  | |_) |  __/ |_| ||  __/ | / /_|  __/ |   < 
+  |____/ \___|\__|\__\___|_|/_____\___|_|_|\_\*/
+@import url(https://schnensch0.github.io/zelk/main.css);
+@import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
+@import url(https://raw.githack.com/schnensch0/zelk/main/colors/gray.css);
+:root {
+  --scrollbars: unset;
+  --notes: none;
+  --message: none;
+  --embed-color: none;
+  --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  --border-radius-1: 10px;
+  --border-radius-2: 8px;
+}
+.theme-dark {
+  --accent-color: #5fa3c5;
+  --background-1: #171d20;
+  --background-2: #1e2529;
+  --background-accent: #1e2529;
+  --border-color: #273034;
+}
+.theme-dark {
+  /* background */
+  --background-primary: var(--background-1);
+  --background-primary-alt: var(--background-1);
+  --background-secondary: var(--background-1);
+  --background-secondary-alt: var(--background-1);
+  --background-tertiary: var(--background-2);
+  --background-accent-gradient: var(--background-2);
+  --background-floating: var(--background-1);
+  --background-mentioned: #bde6fb10;
+  --background-mentioned-hover: #327799cb;
+  /* modifiers */
+  --background-modifier-hover: #262e33;
+  --background-modifier-active: #495a63;
+  --background-modifier-selected: var(--accent-color);
+  --background-modifier-accent: transparent;
+  --background-message-hover: transparent;
+  /* text */
+  --text-normal: var(--accent-color);
+  --text-positive: var(--text-normal);
+  --text-muted: #6d8692;
+  --text-link: #edf8fe;
+  --interactive-selected: var(--background-primary);
+  --interactive-active: var(--text-normal);
+  --interactive-normal: var(--text-normal);
+  --interactive-muted: var(--button-background-active);
+  --channels-default: var(--text-muted);
+  --header-primary: var(--text-normal);
+  --header-secondary: var(--text-muted);
+  /* more */
+  --settings-icon-color: #8eacbc;
+  --control-brand-foreground: var(--accent-color);
+  --info-warning-foreground: var(--accent-color);
+  --tab-selected: #354249;
+  --switch: #3d4c53;
+  --activity-card-background: var(--background-1);
+  --brand-experiment: var(--accent-color) !important;
+  /* buttons */
+  --button-background: #2a3439;
+  --button-background-hover: #354249;
+  --button-background-active: #4d5f68;
+  --button-accent: var(--accent-color);
+  --button-accent-hover: #d2f3ff;
+  --button-accent-active: #8dd4f8;
+  --button-destructive: #fb7c7c;
+  --button-destructive-hover: #ff929b;
+  --button-destructive-active: #fa4a4a;
+}
