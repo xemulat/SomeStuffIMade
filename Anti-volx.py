@@ -1,4 +1,5 @@
 # require 'message_content' intent
+# require 'settings.AVB.json' file 
 
 import discord
 from json import load
