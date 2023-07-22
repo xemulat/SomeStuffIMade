@@ -1,7 +1,7 @@
 # require 'message_content' intent
 # require 'settings.AVB.json' file 
 
-import discord
+import disnake as discord
 from json import load
 
 intents = discord.Intents.default()
@@ -18,8 +18,8 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith('volx') and message.content.startswith('hate'):
-        await message.channel.send('I HATE VOLX 🤬')
+    if 'volx' in message.content and 'hate' in message.content:
+        await message.channel.send('I HATE VOLX TOO!!')
 
 with open('settings.AVB.json', 'r') as f:
     g = load(f)
