@@ -8,6 +8,7 @@ OG by schnensch0, Modded by Xemulated*/
 @import url(https://schnensch0.github.io/zelk/main.css);
 @import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
 @import url(https://raw.githack.com/schnensch0/zelk/main/colors/gray.css);
+@import url(https://raw.githubusercontent.com/Overimagine1/old-discord-font/main/source.css);
 :root {
   --scrollbars: unset;
   --notes: none;
@@ -46,7 +47,7 @@ OG by schnensch0, Modded by Xemulated*/
   --text-normal: var(--accent-color);
   --text-positive: var(--text-normal);
   --text-muted: #6d8692;
-  --text-link: #edf8fe;
+  --text-link: #510bad;
   --interactive-selected: var(--background-primary);
   --interactive-active: var(--text-normal);
   --interactive-normal: var(--text-normal);
