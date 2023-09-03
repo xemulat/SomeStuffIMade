@@ -1,0 +1,26 @@
+html {
+    --scrollbarBG: #1a1a1a;
+    --thumbBG: #1a1a1a;
+}
+
+body {
+  min-height: 100vh;
+  background: #1a1a1a;
+}
+
+.title,
+.h1,
+.subtitle,
+tr,
+.button,
+pre {
+  color: hsl(0, 0%, 71%);
+}
+
+table,
+.table,
+.data-table,
+.button,
+pre {
+  background-color: #1a1a1a;
+}

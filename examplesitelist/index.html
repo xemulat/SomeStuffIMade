@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+
+    <!--- Embedding for Discord -->
+    <meta content="Title" property="og:title" />
+    <meta content="Description" property="og:description" />
+    <meta content="Image" property="twitter:image">
+    <meta content="#43B581" data-react-helmet="true" name="theme-color" />
+
+    <title>Example Site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+          Created by Xemulated.
+        </h1>
+        &nbsp;
+        <p class="subtitle is-small" style="font-family: Consolas; font-size: 13.1px;">
+          INSERT YOUR INFO HERE
+        </p>
+
+        <table id="data-table" class="table is-fullwidth">
+          <thead>
+            <tr>
+              <th><button class="button is-small", onclick="sortTable('data-table', 0)">Source</button></th>
+              <th><button class="button is-small", onclick="sortTable('data-table', 1)">Name</button></th>
+              <th><button class="button is-small", onclick="sortTable('data-table', 2)">Size</button></th>
+              <th><button class="button is-small", onclick="sortTable('data-table', 3)">Videos</button></th>
+              <th><button class="button is-small", onclick="sortTable('data-table', 4)">Pictures</button></th>
+              <th><button class="button is-small">Link</button></th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+        <script src="main.js"></script>
+      </div>
+    </section>
+  </body>
+</html>
