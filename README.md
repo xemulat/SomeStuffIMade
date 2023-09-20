@@ -13,3 +13,4 @@ Info:
 | PyInsider | Wrapper for Offline Insider Enroller with auto-updates and auto-unpacker |
 | whydiscord | Not working auto opener and closer of Discord for MAXIMUM APP TRAY! |
 | RAMDownloader | Fake / Joke RAM Downloader |
+| iSafe | Lists all your posts that have below a certian number of upvotes |
