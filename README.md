@@ -14,3 +14,4 @@ Info:
 | whydiscord | Not working auto opener and closer of Discord for MAXIMUM APP TRAY! |
 | RAMDownloader | Fake / Joke RAM Downloader |
 | iSafe | Lists all your posts that have below a certian number of upvotes |
+| MixtapeHelper | A simple Discord bot that can quickly play songs from a directory and playlists, requires for the bot to accept prefixed commands and bot commands! |
